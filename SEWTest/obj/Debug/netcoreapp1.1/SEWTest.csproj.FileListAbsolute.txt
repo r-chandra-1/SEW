@@ -1,0 +1,9 @@
+/Users/arc/Desktop/SEWTest/SEWTest/bin/Debug/netcoreapp1.1/SEWTest.deps.json
+/Users/arc/Desktop/SEWTest/SEWTest/bin/Debug/netcoreapp1.1/SEWTest.runtimeconfig.json
+/Users/arc/Desktop/SEWTest/SEWTest/bin/Debug/netcoreapp1.1/SEWTest.runtimeconfig.dev.json
+/Users/arc/Desktop/SEWTest/SEWTest/bin/Debug/netcoreapp1.1/SEWTest.dll
+/Users/arc/Desktop/SEWTest/SEWTest/bin/Debug/netcoreapp1.1/SEWTest.pdb
+/Users/arc/Desktop/SEWTest/SEWTest/obj/Debug/netcoreapp1.1/SEWTest.AssemblyInfo.cs
+/Users/arc/Desktop/SEWTest/SEWTest/obj/Debug/netcoreapp1.1/SEWTest.dll
+/Users/arc/Desktop/SEWTest/SEWTest/obj/Debug/netcoreapp1.1/SEWTest.pdb
+/Users/arc/Desktop/SEWTest/SEWTest/obj/Debug/netcoreapp1.1/SEWTest.csproj.CoreCompileInputs.cache

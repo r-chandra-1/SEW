@@ -1,0 +1,7 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/arc/.nuget/packages"
+    ]
+  }
+}
