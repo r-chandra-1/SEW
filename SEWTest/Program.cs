@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ComponentModel.DataAnnotations;
@@ -8,7 +8,7 @@ namespace SEWTest
     class Program
     {
 
-        private static List<string> _words = new List<string>();
+        private static HashSet<string> _words = new HashSet<string>();
 
         static void Main(string[] args)
         {
@@ -95,12 +95,9 @@ namespace SEWTest
                     }
                 }
 
-                Console.Clear();
-                Console.WriteLine($"Words that can be constructed: {totalCombinationWords}/ processed: {wordsProcessed}/ total: {_words.Count}");
-
-
             }
 
+            Console.WriteLine($"Words that can be constructed: {totalCombinationWords}/ processed: {wordsProcessed}/ total: {_words.Count}");
             Console.WriteLine($"largestWord {largestWord}, nextLargestWord {nextLargestWord}");
 
             Console.ReadLine();
@@ -136,8 +133,7 @@ namespace SEWTest
 
 
             var words = System.IO.File.ReadAllLines("wordlist.txt");
-            _words = words.ToList();
-
+            _words = new HashSet<string>(words);
 
         }
     }
